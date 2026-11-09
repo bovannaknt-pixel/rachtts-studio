@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: rachtts-studio
+    env: docker
+    plan: free
+    region: singapore
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
